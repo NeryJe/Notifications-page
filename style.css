@@ -1,0 +1,204 @@
+body {
+    background: #5513be;
+    overflow: hidden; /* Hide scrollbars */
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+main {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.containers {
+    background: #fff;
+    width: 564px;
+    height: 90vh;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+#first {
+    width: 530px;
+    position: relative;
+    bottom: 2%;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.Noti {
+    font-size: 24px;
+    font-weight: bold;
+}
+.Number {
+    color: #fff;
+    padding: 0 10px;
+    background: #190351;
+    border-radius: 5px;
+}
+#Mark {
+    color: #7c6f9c;
+    cursor: pointer;
+}
+#Mark:hover {
+    font-weight: bold;
+    color: #190351;
+}
+.container2 {
+    width: 530px;
+    height: 80vh;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.Users {
+    width: 530px;
+    height: 70px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+}
+.unread p:first-of-type::after {
+    content: "";
+    background-color: #844ddb;
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.unread {
+    background: #f4f1ff !important;
+    cursor: pointer;
+}
+.unread:hover {
+    background: #efedff !important;
+}
+.p1 {
+    margin-top: -15px;
+}
+
+#lego {
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    position: relative;
+    left: 140px;
+    cursor: pointer;
+}
+#lego:hover {
+    border: solid 0.5px #827e8a;
+}
+.images {
+    width: 80px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+}
+#img1 {
+    width: 40px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+}
+.info1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    height: 70px;
+    margin-left: 10px;
+}
+
+.User-Info {
+    padding: 0;
+    margin: 0;
+}
+.User-name {
+    font-weight: bolder;
+    color: #101011;
+}
+
+.info2 {
+    color: #575757;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    height: 90px;
+    margin-left: 10px;
+}
+#Users2 {
+    background: #c4b5f3;
+    width: 530px;
+    height: 90px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+}
+.attribution {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    color: #f4f1ff;
+    position: relative;
+    top: 20px;
+}
+#link {
+    color: #d2cbec;
+}
+
+.Users-Width {
+    height: 95px;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #1a1322;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+}
+.time {
+    margin-top: -14px;
+    color: #55525d;
+    font-size: 12px;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon-32x32.png"
+        />
+        <link rel="stylesheet" href="/style.css" />
+        <title>Frontend Mentor | Notifications page</title>
+
+        
+        <style>
+            .attribution {
+                font-size: 11px;
+                text-align: center;
+            }
+            .attribution a {
+                color: hsl(228, 45%, 44%);
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+      <!-- Build each segmment of notifications giving by each user-->
+        <div class="containers"  >
+          <div id="first">
+                    <div class="Noti">Notifications <span class="Number"></span></div>
+
+                    <div id="Mark" onclick="divclick()">Mark all as read</div>
+                </div>
+            <div class="container2">
+
+                <!--User 1 -->
+                <div class="Users unread"  onclick="divclick(); ">    
+                    <!--this.onclick=null;-->
+                   <img   id="img1" src="/assets/images/avatar-nathan-peterson.webp">
+               
+                <div class="info1"> 
+                    <p><span class="User-name">Daniel Kahn</span> has joined your group <span class="highlight"><bold>Lego Builders</bold> <span> </span> </p>
+                       
+                    <p class="time">1 min ago</p>
+               </div>
+
+             </div> 
+                    
+                  
+       
+                    
+                 <!--User 2 -->
+                <div class="Users unread" onclick="divclick()">
+                     <img  id="img1" src="/assets/images/avatar-jacob-thompson.webp">
+               
+                <div class="info2"> 
+                    <p><span class="User-name">Zach Belmonte</span> followed you
+                     </p>
+                    <p class="time">1 min ago</p>
+                </div>
+                </div>
+
+
+                 <!--User 3-->
+                <div class="Users unread Users-Width" onclick="divclick()">
+                     <img  id="img1" src="/assets/images/avatar-kimberly-smith.webp">
+               
+                <div class="info2"> 
+                    <p><span class="User-name">Camille Smith</span>  reacted to your recent post <span class="highlight"><bold>10 Health Benefits of 
+                       <br>  Building LEGOs
+                        </bold> </span> </p>
+                    <p class="time">7 min ago</p>
+                </div>
+                </div>
+
+                <!--User 4 -->
+                 <div class="Users unread" onclick="divclick()">
+                     <img  id="img1" src="/assets/images/avatar-anna-kim.webp">
+               
+                <div class="info2"> 
+                    <p><span class="User-name">Jenny Flinn</span> followed you <span> </p>
+                    <p class="time">20 min ago</p>
+                </div>
+                </div>
+
+                <!--User 5 -->
+                 <div class="Users unread" onclick="divclick()">
+                     <img  id="img1" src="/assets/images/avatar-angela-gray.webp">
+               
+                <div class="info2 info3"> 
+                    <p><span class="User-name">Jade Morrow</span> commented on your picture <span>
+                    <p class="time">1 hr ago</p>
+                </div>
+                    <img id="lego" src="/assets/images/lego 1.png"> 
+                </div>
+                            
+
+                <!--User 6 -->
+                 <div class="Users unread" onclick="divclick()">
+                     <img  id="img1" src="/assets/images/avatar-rizky-hasanuddin.webp">
+               
+                <div class="info2"> 
+                    <p><span class="User-name">Christopher Novales </span> reposted: <span class="highlight"><bold>How to improve your memory </bold></span>  <span> </p>
+                    <p class="time">2 hr ago</p>
+                </div>
+                </div>
+
+                <!--User 7 -->
+                 <div class="Users unread" onclick="divclick()">
+                     <img  id="img1" src="/assets/images/avatar-mark-webber.webp">
+               
+                <div class="info2"> 
+                    <p><span class="User-name">Jayden Dillman</span> left the group <span class="highlight"><bold>Lego Builders</bold> </span> <span> </p>
+                    <p class="time">2 hr ago</p>
+                </div>
+                </div>
+
+
+
+            </div>
+
+       
+        </div>
+     
+ <div class="attribution">
+            Challenge by &nbsp;
+            <a id="link"
+                 href="https://www.frontendmentor.io?ref=challenge"
+                target="_blank"
+                >Frontend Mentor</a
+            >. Coded by &nbsp; <a id="link" href="#">Nery Cano</a>.
+           
+        </div>
+        
+        </main>
+        <script src="/index.js">
+         </script>
+    </body>
+</html>
