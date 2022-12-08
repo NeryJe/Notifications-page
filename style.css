@@ -41,7 +41,7 @@ main {
     flex-direction: row;
 }
 .Noti {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 .Number {
@@ -61,7 +61,6 @@ main {
 .container2 {
     width: 530px;
     height: 80vh;
-
     display: flex;
     flex-direction: column;
     row-gap: 1em;
@@ -200,5 +199,5 @@ main {
 .time {
     margin-top: -14px;
     color: #55525d;
-    font-size: 12px;
+    font-size: 0.75rem;
 }
