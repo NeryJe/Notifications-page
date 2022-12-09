@@ -1,23 +1,23 @@
-const number = document.querySelector(".Number");
+const unread = document.querySelectorAll(".unread");
 
-let count = 7;
+const number = document.querySelector(".Number");
+let count = 8;
 number.innerHTML = count;
 
-function divclick() {
-    const unread = document.querySelectorAll(".unread");
-
+window.onload = function () {
     if (count > 0) {
         count--;
         number.innerHTML = count;
-
         unread.forEach((Users) => {
             Users.addEventListener("click", () => {
                 Users.classList.remove("unread");
+                count--;
+                number.innerHTML = count;
             });
         });
 
         document.querySelectorAll(".Users").forEach((Users) =>
-            Users.addEventListener("click", (e) => {
+            Users.addEventListener("click", () => {
                 Users.style.pointerEvents = "none";
             })
         );
@@ -31,4 +31,4 @@ function divclick() {
                 });
             });
     }
-}
+};
