@@ -9,11 +9,11 @@ This is a solution to the [Notifications page challenge on Frontend Mentor](http
     -   [Screenshot](#screenshot)
     -   [Links](#links)
 -   [My process](#my-process)
-    -   [Built with](#Built with)
+    -   [Built with](#Built-with)
     -   [What I learned](#what-i-learned)
     -   [Continued development](#continued-development)
     -   [Useful resources](#useful-resources)
--   [Author](#Nery Cano)
+-   [Author](#Nery-Cano)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
