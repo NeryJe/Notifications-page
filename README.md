@@ -30,6 +30,7 @@ Users should be able to:
 ![](./assets/images/project-screen.png)
 
 ### Links
+[Notifications project](https://neryje.github.io/notifications-project/)
 
 ## My process
 
