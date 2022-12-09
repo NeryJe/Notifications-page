@@ -4,12 +4,12 @@ This is a solution to the [Notifications page challenge on Frontend Mentor](http
 
 ## Table of contents
 
--   [Overview]
+-   Overview
     -   [The challenge](#the-challenge)
     -   [Screenshot](#screenshot)
     -   [Links](#links)
 -   [My process](#my-process)
-    -   [Built with](#css #html #Js)
+    -   [Built with](#Built with)
     -   [What I learned](#what-i-learned)
     -   [Continued development](#continued-development)
     -   [Useful resources](#useful-resources)
